@@ -1,0 +1,92 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_10-184260</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>62</ObjId>
+<ObjName>IncreasePricesWP</ObjName>
+<ObjDesc>Increase Prices WP</ObjDesc>
+<ObjPgmName>IncreasePricesWP</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>41</GenId>
+<GenName>Default (.NET)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules>
+<Action>
+<ActionType>DynamicLoad</ActionType>
+<DynamicLoad>
+<ControlName>
+<Variable>
+<VarId>Categoryid</VarId>
+<VarName>&amp;CategoryId</VarName></Variable></ControlName>
+<CodeAttributes>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute></CodeAttributes>
+<DescriptionAttributes>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>CategoryName</AttriName>
+<Description>Category Name</Description></Attribute></DescriptionAttributes>
+<Navigation>
+<NavigationTree>
+<Table>
+<TableId>2</TableId>
+<TableName>Category</TableName>
+<Description>Category</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>CategoryName</AttriName>
+<Description>Category Name</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<NavigationConditions></NavigationConditions>
+<NavigationOrder>
+<Order>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>CategoryName</AttriName>
+<Description>Category Name</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>UCATEGORY</IndexName></NavigationOrder></Navigation></DynamicLoad></Action></StandAloneRules>
+<Event>
+<EventName>'Increase'</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>23</ObjId>
+<ObjName>IncreasePrice</ObjName>
+<ObjPgmName>IncreasePrice</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Expression>
+<Variable>
+<VarId>Categoryid</VarId>
+<VarName>&amp;CategoryId</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Percentage</VarId>
+<VarName>&amp;Percentage</VarName></Variable></Expression>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

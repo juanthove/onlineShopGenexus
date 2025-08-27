@@ -1,0 +1,214 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_10-184260</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>4</ObjId>
+<ObjName>Product_BC</ObjName>
+<ObjDesc>Product</ObjDesc>
+<ObjPgmName>Product_BC</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>41</GenId>
+<GenName>Default (.NET)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>4</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>4</TableId>
+<TableName>Product</TableName>
+<Description>Product</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>4</TableId>
+<TableName>Product</TableName>
+<Description>Product</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>ProductId</AttriName>
+<Description>Product Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>3</TableId>
+<TableName>Seller</TableName>
+<Description>Seller</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>SellerId</AttriName>
+<Description>Seller Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>7</TableId>
+<TableName>Supplier</TableName>
+<Description>Supplier</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>SupplierId</AttriName>
+<Description>Supplier Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>2</TableId>
+<TableName>Category</TableName>
+<Description>Category</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>1</TableId>
+<TableName>Country</TableName>
+<Description>Country</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>ProductCountryId</AttriName>
+<Description>Product Country Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>4</TableId>
+<TableName>Product</TableName>
+<Description>Product</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ProductName</AttriName>
+<Description>Product Name</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>ProductDescription</AttriName>
+<Description>Product Description</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ProductPrice</AttriName>
+<Description>Product Price</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>ProductImage</AttriName>
+<Description>Product Image</Description></Attribute>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>ProductImage.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>SellerId</AttriName>
+<Description>Seller Id</Description></Attribute>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>SupplierId</AttriName>
+<Description>Supplier Id</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>ProductCountryId</AttriName>
+<Description>Product Country Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>4</TableId>
+<TableName>Product</TableName>
+<Description>Product</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ProductName</AttriName>
+<Description>Product Name</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>ProductDescription</AttriName>
+<Description>Product Description</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ProductPrice</AttriName>
+<Description>Product Price</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>ProductImage</AttriName>
+<Description>Product Image</Description></Attribute>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>ProductImage.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>SellerId</AttriName>
+<Description>Seller Id</Description></Attribute>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>SupplierId</AttriName>
+<Description>Supplier Id</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>ProductCountryId</AttriName>
+<Description>Product Country Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>4</TableId>
+<TableName>Product</TableName>
+<Description>Product</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>11</TableId>
+<TableName>PromotionProduct</TableName>
+<Description>Product</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>ProductId</AttriName>
+<Description>Product Id</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>10</TableId>
+<TableName>ShoppingCartProducts</TableName>
+<Description>Products</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>ProductId</AttriName>
+<Description>Product Id</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,13 @@
+lng_i(1,[ 'Spanish','Spanish',spa ]).
+ 
+lng_prop_i(1,'IsRightToLeft','0',d).
+lng_prop_i(1,'ISOLangCode','ES',v).
+lng_prop_i(1,'ISOCountryCode','ES',v).
+lng_prop_i(1,'Codepage','1252',v).
+lng_prop_i(1,'LanguageLocalization','',d).
+lng_prop_i(1,'LangDateFormat','SPA',v).
+lng_prop_i(1,'LangTimeFormat','24',v).
+lng_prop_i(1,'LangDecimalPoint',',',v).
+lng_prop_i(1,'FullyQualifiedName','Spanish',d).
+ 
+ 

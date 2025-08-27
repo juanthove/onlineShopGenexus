@@ -1,0 +1,320 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_10-184260</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>16</ObjId>
+<ObjName>CategoriesProductsList</ObjName>
+<ObjDesc>Categories Products List</ObjDesc>
+<ObjPgmName>CategoriesProductsList</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>File</Device></OutputDevices>
+<Main>Yes</Main>
+<CallProtocol>HTTP</CallProtocol>
+<Generator>
+<GenId>41</GenId>
+<GenName>Default (.NET)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Categoryid</VarId>
+<VarName>&amp;CategoryId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>4</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>8</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>4</TableId>
+<TableName>Product</TableName>
+<Description>Product</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IPRODUCT1</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Categoryid</VarId>
+<VarName>&amp;CategoryId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Categoryid</VarId>
+<VarName>&amp;CategoryId</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>4</TableId>
+<TableName>Product</TableName>
+<Description>Product</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>ProductId</AttriName>
+<Description>Product Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>SellerId</AttriName>
+<Description>Seller Id</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>ProductId</AttriName>
+<Description>Product Id</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute>
+<Attribute>
+<AttriId>40001</AttriId>
+<AttriName>ProductImage.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>ProductImage</AttriName>
+<Description>Product Image</Description></Attribute>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ProductName</AttriName>
+<Description>Product Name</Description></Attribute></Into>
+<Tables>
+<Table>
+<TableId>3</TableId>
+<TableName>Seller</TableName>
+<Description>Seller</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>SellerId</AttriName>
+<Description>Seller Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>SellerPhoto.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>SellerPhoto</AttriName>
+<Description>Seller Photo</Description></Attribute>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>SellerName</AttriName>
+<Description>Seller Name</Description></Attribute></Into>
+<Tables></Tables></Table>
+<Table>
+<TableId>10</TableId>
+<TableName>ProductFinalPrice navigation</TableName>
+<Description>Products</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>ProductId</AttriName>
+<Description>Product Id</Description></Attribute></KeyAttributes></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas>
+<Formula>
+<FormulaAttri>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>ProductFinalPrice</AttriName>
+<Description>Product Final Price</Description></Attribute></FormulaAttri>
+<FormulaType>aggsel</FormulaType>
+<FormulaExpression>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ProductPrice</AttriName>
+<Description>Product Price</Description></Attribute>
+<Sp></Sp>
+<Token>+</Token>
+<Token>(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ProductPrice</AttriName>
+<Description>Product Price</Description></Attribute>
+<Sp></Sp>
+<Token>*</Token>
+<Sp></Sp>
+<Token>0.05</Token>
+<Token>)</Token>
+<Sp></Sp>
+<Token>IF</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>find(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>CategoryName</AttriName>
+<Description>Category Name</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>&quot;Joyeria&quot;</Token>
+<Token>)</Token>
+<Sp></Sp>
+<Token>;</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ProductPrice</AttriName>
+<Description>Product Price</Description></Attribute>
+<Sp></Sp>
+<Token>-</Token>
+<Token>(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ProductPrice</AttriName>
+<Description>Product Price</Description></Attribute>
+<Sp></Sp>
+<Token>*</Token>
+<Sp></Sp>
+<Token>0.1</Token>
+<Token>)</Token>
+<Sp></Sp>
+<Token>IF</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>find(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>CategoryName</AttriName>
+<Description>Category Name</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>&quot;Entretenimiento&quot;</Token>
+<Token>)</Token>
+<Sp></Sp>
+<Token>;</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ProductPrice</AttriName>
+<Description>Product Price</Description></Attribute>
+<Sp></Sp>
+<Token>OTHERWISE</Token>
+<Sp></Sp>
+<Token>;</Token></FormulaExpression>
+<FormulaGivenAttris>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>ProductId</AttriName>
+<Description>Product Id</Description></Attribute></FormulaGivenAttris>
+<FormulaIndex>ISHOPPINGCARTPRODUCTS</FormulaIndex>
+<NavigationTree>
+<Table>
+<TableId>10</TableId>
+<TableName>ShoppingCartProducts</TableName>
+<Description>Products</Description>
+<RecordsToRead>many</RecordsToRead>
+<Tables>
+<Table>
+<TableId>10</TableId>
+<TableName>find( CategoryId )  navigation</TableName>
+<Description>Products</Description>
+<RecordsToRead>one</RecordsToRead>
+<JoinType>Outer</JoinType>
+<Tables>
+<Table>
+<TableId>2</TableId>
+<TableName>Category</TableName>
+<Description>Category</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table>
+<Table>
+<TableId>10</TableId>
+<TableName>find( CategoryId )  navigation</TableName>
+<Description>Products</Description>
+<RecordsToRead>one</RecordsToRead>
+<JoinType>Outer</JoinType>
+<Tables>
+<Table>
+<TableId>2</TableId>
+<TableName>Category</TableName>
+<Description>Category</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table>
+<Table>
+<TableId>4</TableId>
+<TableName>Product</TableName>
+<Description>Product</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>ProductId</AttriName>
+<Description>Product Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree></Formula></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

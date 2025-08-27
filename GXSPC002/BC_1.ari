@@ -1,0 +1,5 @@
+bc_dt_elem_i([ 0,1,0 ],'Countryid',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Countryname',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Countryflag',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Countryflag_gxi',allownulls,no).
+ 

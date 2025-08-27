@@ -1,0 +1,56 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_10-184260</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>60</ObjId>
+<ObjName>CustomersShoppingCarts</ObjName>
+<ObjDesc>Customers Shopping Carts</ObjDesc>
+<ObjPgmName>CustomersShoppingCarts</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>41</GenId>
+<GenName>Default (.NET)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>&amp;FromDate.Controlvaluechanged</EventName></Event>
+<Event>
+<EventName>&amp;ToDate.Controlvaluechanged</EventName></Event>
+<Event>
+<EventName>'Customers'</EventName></Event>
+<Event>
+<EventName>'Delete Carts'</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>20</ObjId>
+<ObjName>DeleteCarts</ObjName>
+<ObjPgmName>DeleteCarts</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Expression>
+<Variable>
+<VarId>Fromdate</VarId>
+<VarName>&amp;FromDate</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Todate</VarId>
+<VarName>&amp;ToDate</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Mensaje</VarId>
+<VarName>&amp;Mensaje</VarName></Variable></Expression>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prgs.xsl"?>
+<Objects>
+   <Charset>UTF-8</Charset>
+   <Path>file:///A:/Programas/GeneXus/GeneXus18Trial/</Path>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWCountry</ObjName>
+      <ObjDesc>Countries</ObjDesc>
+      <ObjLink>wwcountry.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWCategory</ObjName>
+      <ObjDesc>Categories</ObjDesc>
+      <ObjLink>wwcategory.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWSeller</ObjName>
+      <ObjDesc>Sellers</ObjDesc>
+      <ObjLink>wwseller.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWProduct</ObjName>
+      <ObjDesc>Products</ObjDesc>
+      <ObjLink>wwproduct.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWCustomer</ObjName>
+      <ObjDesc>Customers</ObjDesc>
+      <ObjLink>wwcustomer.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWPointCard</ObjName>
+      <ObjDesc>Point Cards</ObjDesc>
+      <ObjLink>wwpointcard.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWSupplier</ObjName>
+      <ObjDesc>Suppliers</ObjDesc>
+      <ObjLink>wwsupplier.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWPromotion</ObjName>
+      <ObjDesc>Promotions</ObjDesc>
+      <ObjLink>wwpromotion.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWShoppingCart</ObjName>
+      <ObjDesc>Shopping Carts</ObjDesc>
+      <ObjLink>wwshoppingcart.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>CategoriesProducts</ObjName>
+      <ObjDesc>Categories Products</ObjDesc>
+      <ObjLink>categoriesproducts.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>SellerProducts</ObjName>
+      <ObjDesc>Seller Products</ObjDesc>
+      <ObjLink>sellerproducts.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>CustomersShoppingCarts</ObjName>
+      <ObjDesc>Customers Shopping Carts</ObjDesc>
+      <ObjLink>customersshoppingcarts.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>1</ObjCls>
+      <ObjName>ProductsListCategory</ObjName>
+      <ObjDesc>Products List Category</ObjDesc>
+      <ObjLink>aproductslistcategory.aspx</ObjLink>
+   </Object>
+</Objects>

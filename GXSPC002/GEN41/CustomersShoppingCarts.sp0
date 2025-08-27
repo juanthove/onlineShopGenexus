@@ -1,0 +1,728 @@
+spec_i([ web,60,'Customers Shopping Carts','CustomersShoppingCarts',0,spa,'18_0_10-184260' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Mensaje','Fromdate','Todate' ] ]).
+ 
+lac_i(2,[ [ 'Mensaje','Fromdate','Todate' ] ]).
+ 
+ 
+lits_i('Customers and Shopping Carts',5,10).
+lits_i('Debe ingresar las dos fechas',5,10).
+lits_i('La fecha de inicio no puede ser mayor a la del final',5,10).
+ 
+cls_i([ 0,0 ],[ 5,61 ]).
+ 
+pos_i('Mensaje',[ 0,0,0 ]).
+pos_i('Fromdate',[ 0,0,0 ]).
+pos_i('Todate',[ 0,0,0 ]).
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-SVNU8R4\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME','ObligatorioShop')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','KnowledgeBase')).
+rule_i(0,prop('FullyQualifiedName','CustomersShoppingCarts')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WebApplication',idDefault)).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'General.UI.MasterUnanimoSidebar'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(102,'ObligatorioShop'))).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('ObjDesc','Customers Shopping Carts')).
+rule_i(0,prop('ObjName','CustomersShoppingCarts')).
+rule_i(0,maingen(41)).
+rule_i(2,rule([ a(1,msg([ t('"Campo From Date fuera de rango"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t('Fromdate',2),t(')',4),t('.OR.',9),t('Fromdate',2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ],[ insert,update ],[ 'Fromdate' ])).
+rule_i(2,rule([ a(1,msg([ t('"Campo To Date fuera de rango"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t('Todate',2),t(')',4),t('.OR.',9),t('Todate',2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ],[ insert,update ],[ 'Todate' ])).
+rule_i(0,rule([ a(22,[ '''Customers''','''Customers''','' ]) ],[],[],[])).
+rule_i(0,rule([ a(22,[ '''Delete Carts''','''Delete Carts''','' ]) ],[],[],[])).
+ 
+a_i(1,2,b,0,[],[ [],[ a(1,msg([ t('"Campo From Date fuera de rango"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t('Fromdate',2),t(')',4),t('.OR.',9),t('Fromdate',2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ] ]).
+a_i(2,2,b,0,[],[ [],[ a(1,msg([ t('"Campo To Date fuera de rango"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t('Todate',2),t(')',4),t('.OR.',9),t('Todate',2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ] ]).
+a_i(3,1,f,[ t('&Mensaje',23),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+ 
+v_i(b,i,1,'Fromdate').
+v_i(b,o,1,[]).
+v_i(b,i,2,'Todate').
+v_i(b,o,2,[]).
+v_i(f,i,3,[]).
+v_i(f,o,3,[ t('&Mensaje',23),t('Enabled',3) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Mensaje',[ 'Mensaje',svchar,40,0,'',0,'Mensaje','',9 ]).
+attri_i('Todate',[ 'ToDate',date,8,0,'99/99/99',0,'To Date','',6 ]).
+attri_i('Fromdate',[ 'FromDate',date,8,0,'99/99/99',0,'From Date','',5 ]).
+attri_i('Error',[ 'Error',boolean,4,0,'',0,'Error','',8 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,7).
+b_group_i(2,3,lit,0,8,22).
+b_group_i(2,4,lit,0,23,37).
+b_group_i(2,5,lit,0,38,43).
+b_group_i(2,6,lit,0,44,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',107,2,0),t([ t('Textblockdate',3,1,0),t('Visible',3,1,0) ],29,1,0),t(=,10,1,0),t('FALSE',41,1,0) ]).
+b_line_i(3,2,2,cmd,1,[ t('',107,3,0),t([ t('Mensaje',23,1,0),t('Visible',3,1,0) ],29,1,0),t(=,10,1,0),t('FALSE',41,1,0) ]).
+b_line_i(4,2,2,cmd,1,[ t('',107,4,0),t('Error',23,1,0),t(=,10,1,0),t('TRUE',40,1,0) ]).
+b_line_i(5,2,2,cmd,1,[ t('',147,5,0) ]).
+b_line_i(7,2,2,cmd,1,[ t('',146,7,0),t([ t('Fromdate',23,7,7),t('Controlvaluechanged',3,7,17) ],29,7,17) ]).
+b_line_i(8,2,3,cmd,1,[ t('',109,8,0),t('.NOT.',8,1,5),t('(',0,1,11),t('null(',1,8,20),t('Todate',23,1,12),t(')',4,1,29),t(')',4,1,30) ]).
+b_line_i(9,2,3,cmd,1,[ t('',107,9,0),t([ t('Textblockadv',3,1,0),t('Visible',3,1,0) ],29,1,0),t(=,10,1,0),t('FALSE',41,1,0) ]).
+b_line_i(11,2,3,cmd,1,[ t('',109,11,0),t('(',0,1,6),t('Todate',23,1,7),t(<,10,1,14),t('Fromdate',23,1,15),t(')',4,1,24) ]).
+b_line_i(12,2,3,cmd,1,[ t('',107,12,0),t([ t('Textblockdate',3,1,0),t('Visible',3,1,0) ],29,1,0),t(=,10,1,0),t('TRUE',40,1,0) ]).
+b_line_i(13,2,3,cmd,1,[ t('',107,13,0),t('Error',23,1,0),t(=,10,1,0),t('TRUE',40,1,0) ]).
+b_line_i(14,2,3,cmd,1,[ t('',110,14,0) ]).
+b_line_i(15,2,3,cmd,1,[ t('',107,15,0),t([ t('Textblockdate',3,1,0),t('Visible',3,1,0) ],29,1,0),t(=,10,1,0),t('FALSE',41,1,0) ]).
+b_line_i(16,2,3,cmd,1,[ t('',107,16,0),t('Error',23,1,0),t(=,10,1,0),t('FALSE',41,1,0) ]).
+b_line_i(17,2,3,cmd,1,[ t('',111,17,0) ]).
+b_line_i(18,2,3,cmd,1,[ t('',111,18,0) ]).
+b_line_i(19,2,3,cmd,1,[ t('',107,19,0),t([ t('Mensaje',23,1,0),t('Visible',3,1,0) ],29,1,0),t(=,10,1,0),t('FALSE',41,1,0) ]).
+b_line_i(20,2,3,cmd,1,[ t('',147,20,0) ]).
+b_line_i(22,2,3,cmd,1,[ t('',146,22,0),t([ t('Todate',23,22,7),t('Controlvaluechanged',3,22,15) ],29,22,15) ]).
+b_line_i(23,2,4,cmd,1,[ t('',109,23,0),t('.NOT.',8,1,5),t('(',0,1,11),t('null(',1,23,22),t('Fromdate',23,1,12),t(')',4,1,31),t(')',4,1,32) ]).
+b_line_i(24,2,4,cmd,1,[ t('',107,24,0),t([ t('Textblockadv',3,1,0),t('Visible',3,1,0) ],29,1,0),t(=,10,1,0),t('FALSE',41,1,0) ]).
+b_line_i(26,2,4,cmd,1,[ t('',109,26,0),t('(',0,1,6),t('Todate',23,1,7),t(<,10,1,14),t('Fromdate',23,1,15),t(')',4,1,24) ]).
+b_line_i(27,2,4,cmd,1,[ t('',107,27,0),t([ t('Textblockdate',3,1,0),t('Visible',3,1,0) ],29,1,0),t(=,10,1,0),t('TRUE',40,1,0) ]).
+b_line_i(28,2,4,cmd,1,[ t('',107,28,0),t('Error',23,1,0),t(=,10,1,0),t('TRUE',40,1,0) ]).
+b_line_i(29,2,4,cmd,1,[ t('',110,29,0) ]).
+b_line_i(30,2,4,cmd,1,[ t('',107,30,0),t([ t('Textblockdate',3,1,0),t('Visible',3,1,0) ],29,1,0),t(=,10,1,0),t('FALSE',41,1,0) ]).
+b_line_i(31,2,4,cmd,1,[ t('',107,31,0),t('Error',23,1,0),t(=,10,1,0),t('FALSE',41,1,0) ]).
+b_line_i(32,2,4,cmd,1,[ t('',111,32,0) ]).
+b_line_i(33,2,4,cmd,1,[ t('',111,33,0) ]).
+b_line_i(34,2,4,cmd,1,[ t('',107,34,0),t([ t('Mensaje',23,1,0),t('Visible',3,1,0) ],29,1,0),t(=,10,1,0),t('FALSE',41,1,0) ]).
+b_line_i(35,2,4,cmd,1,[ t('',147,35,0) ]).
+b_line_i(37,2,4,cmd,1,[ t('',146,37,0),t('''Customers''',3,37,7) ]).
+b_line_i(38,2,5,cmd,1,[ t('',109,38,0),t('(',0,1,4),t('Error',23,1,5),t(=,10,1,12),t('FALSE',41,1,14),t(')',4,1,19) ]).
+b_line_i(39,2,5,cmd,1,[ t('',188,39,0),t(o(1,'CustomersShopping'),28,1,3),t('Fromdate',23,1,28),t(',',7,1,0),t('Todate',23,1,39) ]).
+b_line_i(40,2,5,cmd,1,[ t('',111,40,0) ]).
+b_line_i(41,2,5,cmd,1,[ t('',147,41,0) ]).
+b_line_i(43,2,5,cmd,1,[ t('',146,43,0),t('''Delete Carts''',3,43,7) ]).
+b_line_i(44,2,6,cmd,1,[ t('',109,44,0),t('(',0,1,4),t('Error',23,1,5),t(=,10,1,12),t('FALSE',41,1,14),t(')',4,1,19) ]).
+b_line_i(45,2,6,cmd,1,[ t('',104,45,0),t(o(1,'DeleteCarts'),28,1,3),t('Fromdate',23,1,15),t(',',7,1,0),t('Todate',23,1,26),t(',',7,1,0),t('Mensaje',23,1,35) ]).
+b_line_i(46,2,6,cmd,1,[ t('',107,46,0),t([ t('Mensaje',23,1,0),t('Visible',3,1,0) ],29,1,0),t(=,10,1,0),t('TRUE',40,1,0) ]).
+b_line_i(47,2,6,cmd,1,[ t('',111,47,0) ]).
+b_line_i(48,2,6,cmd,1,[ t('',147,48,0) ]).
+b_line_i(1000,2,6,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,6,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,6,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,div(2)).
+ 
+html_sub_i(2,3,html_i(0,div(3))).
+html_sub_i(3,4,html_i(0,div(4))).
+html_sub_i(4,5,html_i(0,div(5))).
+html_sub_i(5,6,html_i(0,t('Customers and Shopping Carts',3))).
+html_sub_i(3,7,html_i(1,div(7))).
+html_sub_i(7,8,html_i(0,div(8))).
+html_sub_i(8,9,html_i(0,t('Debe ingresar las dos fechas',3))).
+html_sub_i(3,10,html_i(2,div(10))).
+html_sub_i(10,11,html_i(0,div(11))).
+html_sub_i(11,12,html_i(0,t('La fecha de inicio no puede ser mayor a la del final',3))).
+html_sub_i(3,13,html_i(3,div(13))).
+html_sub_i(13,14,html_i(0,div(14))).
+html_sub_i(14,15,html_i(0,div(15))).
+html_sub_i(15,16,html_i(0,div(16))).
+html_sub_i(16,17,html_i(0,t('Mensaje',23))).
+html_sub_i(3,18,html_i(4,div(18))).
+html_sub_i(18,19,html_i(0,div(19))).
+html_sub_i(19,20,html_i(0,div(20))).
+html_sub_i(20,21,html_i(0,div(21))).
+html_sub_i(21,22,html_i(0,t('Fromdate',23))).
+html_sub_i(3,23,html_i(5,div(23))).
+html_sub_i(23,24,html_i(0,div(24))).
+html_sub_i(24,25,html_i(0,div(25))).
+html_sub_i(25,26,html_i(0,div(26))).
+html_sub_i(26,27,html_i(0,t('Todate',23))).
+html_sub_i(3,28,html_i(6,div(28))).
+html_sub_i(28,29,html_i(0,div(29))).
+html_sub_i(29,30,html_i(0,button('''Customers'''))).
+html_sub_i(28,31,html_i(1,div(31))).
+html_sub_i(31,32,html_i(0,button('''Delete Carts'''))).
+ 
+html_tags_i(1,'Class','form-horizontal Form').
+html_tags_i(2,'data-gx-base-lib',none).
+html_tags_i(2,'data-abstract-form','').
+html_tags_i(6,'ControlType','').
+html_tags_i(9,'ControlType','').
+html_tags_i(12,'ControlType','').
+html_tags_i(15,'data-gx-att','var:9').
+html_tags_i(17,'data-gx-att','var:9').
+html_tags_i(20,'data-gx-att','var:5').
+html_tags_i(22,'data-gx-att','var:5').
+html_tags_i(25,'data-gx-att','var:6').
+html_tags_i(27,'data-gx-att','var:6').
+html_tags_i(30,'ControlType','').
+html_tags_i(32,'ControlType','').
+ 
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Class','Section',d,[ str ]).
+html_comp_i(2,'Id','',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Semanticcontent',div,d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Valign',top,d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Class','Table',v,[ str ]).
+html_comp_i(3,'Id','Maintable',v,[ str ]).
+html_comp_i(3,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Semanticcontent',div,d,[ str ]).
+html_comp_i(3,'Align',left,d,[ str ]).
+html_comp_i(3,'Valign',top,d,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Class',row,v,[ str ]).
+html_comp_i(4,'Id','',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Semanticcontent',div,d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Valign',top,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Class','col-xs-12',v,[ str ]).
+html_comp_i(5,'Id','',d,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Semanticcontent',div,d,[ str ]).
+html_comp_i(5,'Align','Center',v,[ str ]).
+html_comp_i(5,'Valign',top,d,[ str ]).
+html_comp_i(6,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(6,'Caption','Customers and Shopping Carts',d,[ str ]).
+html_comp_i(6,'Id','Textblock1',v,[ str ]).
+html_comp_i(6,'Class','heading-01',v,[ str ]).
+html_comp_i(6,'Event','',d,[ str ]).
+html_comp_i(6,'Returnonclick',0,d,[ bool ]).
+html_comp_i(6,'Gxformat',0,d,[ num ]).
+html_comp_i(6,'Title','',d,[ str ]).
+html_comp_i(6,'Fill',-1,d,[ bool ]).
+html_comp_i(6,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(6,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(6,'Font','',d,[ str ]).
+html_comp_i(7,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(7,'Class',row,v,[ str ]).
+html_comp_i(7,'Id','',d,[ str ]).
+html_comp_i(7,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Semanticcontent',div,d,[ str ]).
+html_comp_i(7,'Align',left,d,[ str ]).
+html_comp_i(7,'Valign',top,d,[ str ]).
+html_comp_i(8,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(8,'Class','col-xs-12',v,[ str ]).
+html_comp_i(8,'Id','',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Semanticcontent',div,d,[ str ]).
+html_comp_i(8,'Align','Center',v,[ str ]).
+html_comp_i(8,'Valign',top,d,[ str ]).
+html_comp_i(9,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(9,'Caption','Debe ingresar las dos fechas',d,[ str ]).
+html_comp_i(9,'Id','Textblockadv',v,[ str ]).
+html_comp_i(9,'Class','WarningMessages',v,[ str ]).
+html_comp_i(9,'Event','',d,[ str ]).
+html_comp_i(9,'Returnonclick',0,d,[ bool ]).
+html_comp_i(9,'Gxformat',0,d,[ num ]).
+html_comp_i(9,'Title','',d,[ str ]).
+html_comp_i(9,'Fill',-1,d,[ bool ]).
+html_comp_i(9,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(9,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(9,'Font','',d,[ str ]).
+html_comp_i(10,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(10,'Class',row,v,[ str ]).
+html_comp_i(10,'Id','',d,[ str ]).
+html_comp_i(10,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Semanticcontent',div,d,[ str ]).
+html_comp_i(10,'Align',left,d,[ str ]).
+html_comp_i(10,'Valign',top,d,[ str ]).
+html_comp_i(11,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(11,'Class','col-xs-12',v,[ str ]).
+html_comp_i(11,'Id','',d,[ str ]).
+html_comp_i(11,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Semanticcontent',div,d,[ str ]).
+html_comp_i(11,'Align','Center',v,[ str ]).
+html_comp_i(11,'Valign',top,d,[ str ]).
+html_comp_i(12,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(12,'Caption','La fecha de inicio no puede ser mayor a la del final',d,[ str ]).
+html_comp_i(12,'Id','Textblockdate',v,[ str ]).
+html_comp_i(12,'Class','WarningMessages',v,[ str ]).
+html_comp_i(12,'Event','',d,[ str ]).
+html_comp_i(12,'Returnonclick',0,d,[ bool ]).
+html_comp_i(12,'Gxformat',0,d,[ num ]).
+html_comp_i(12,'Title','',d,[ str ]).
+html_comp_i(12,'Fill',-1,d,[ bool ]).
+html_comp_i(12,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(12,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(12,'Font','',d,[ str ]).
+html_comp_i(13,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(13,'Class',row,v,[ str ]).
+html_comp_i(13,'Id','',d,[ str ]).
+html_comp_i(13,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Semanticcontent',div,d,[ str ]).
+html_comp_i(13,'Align',left,d,[ str ]).
+html_comp_i(13,'Valign',top,d,[ str ]).
+html_comp_i(14,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(14,'Class','col-xs-12',v,[ str ]).
+html_comp_i(14,'Id','',d,[ str ]).
+html_comp_i(14,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Semanticcontent',div,d,[ str ]).
+html_comp_i(14,'Align',left,d,[ str ]).
+html_comp_i(14,'Valign',top,d,[ str ]).
+html_comp_i(15,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(15,'Class','form-group gx-form-group ',v,[ str ]).
+html_comp_i(15,'Id','',d,[ str ]).
+html_comp_i(15,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Semanticcontent',div,d,[ str ]).
+html_comp_i(15,'Align',left,d,[ str ]).
+html_comp_i(15,'Valign',top,d,[ str ]).
+html_comp_i(16,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(16,'Class','col-sm-9 gx-attribute',v,[ str ]).
+html_comp_i(16,'Id','',d,[ str ]).
+html_comp_i(16,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Semanticcontent',div,d,[ str ]).
+html_comp_i(16,'Align',left,d,[ str ]).
+html_comp_i(16,'Valign',top,d,[ str ]).
+html_comp_i(17,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(17,'Colcount',40,d,[ num ]).
+html_comp_i(17,'Attid',-9,v,[ num ]).
+html_comp_i(17,'Class','Attribute',v,[ str ]).
+html_comp_i(17,'Controlname','&Mensaje',d,[ str ]).
+html_comp_i(17,'Returnonclick',0,v,[ bool ]).
+html_comp_i(17,'Eventgx','',d,[ str ]).
+html_comp_i(17,'Captionclass','col-sm-3 AttributeLabel',v,[ str ]).
+html_comp_i(17,'Captionstyle','',v,[ str ]).
+html_comp_i(17,'Captionposition','Left',v,[ str ]).
+html_comp_i(17,'Captionvalue','',d,[ str ]).
+html_comp_i(17,'Layoutclass','col-sm-9',v,[ str ]).
+html_comp_i(17,'Controltype',2,d,[ num ]).
+html_comp_i(17,'Inputtype',0,d,[ num ]).
+html_comp_i(17,'Editautocomplete',0,d,[ num ]).
+html_comp_i(17,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(17,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(17,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(17,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(17,'Readonly',-1,v,[ bool ]).
+html_comp_i(17,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(17,'Ispassword',0,d,[ bool ]).
+html_comp_i(17,'Autoresize',-1,d,[ bool ]).
+html_comp_i(17,'Gxwidth',measure(40,chr),d,[ measure ]).
+html_comp_i(17,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(17,'Ismultiline',0,d,[ bool ]).
+html_comp_i(17,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(17,'Fill',-1,d,[ bool ]).
+html_comp_i(17,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(17,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(17,'Font',font('Verdana',12,[]),d,[ font ]).
+html_comp_i(17,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(17,'Gxformat',0,d,[ num ]).
+html_comp_i(17,'Title','',d,[ str ]).
+html_comp_i(17,'Invitemsg','',v,[ str ]).
+html_comp_i(18,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(18,'Class',row,v,[ str ]).
+html_comp_i(18,'Id','',d,[ str ]).
+html_comp_i(18,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Semanticcontent',div,d,[ str ]).
+html_comp_i(18,'Align',left,d,[ str ]).
+html_comp_i(18,'Valign',top,d,[ str ]).
+html_comp_i(19,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(19,'Class','col-xs-12',v,[ str ]).
+html_comp_i(19,'Id','',d,[ str ]).
+html_comp_i(19,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Semanticcontent',div,d,[ str ]).
+html_comp_i(19,'Align','Center',v,[ str ]).
+html_comp_i(19,'Valign',top,d,[ str ]).
+html_comp_i(20,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(20,'Class','form-group gx-form-group ',v,[ str ]).
+html_comp_i(20,'Id','',d,[ str ]).
+html_comp_i(20,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Semanticcontent',div,d,[ str ]).
+html_comp_i(20,'Align',left,d,[ str ]).
+html_comp_i(20,'Valign',top,d,[ str ]).
+html_comp_i(21,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(21,'Class','col-sm-9 gx-attribute',v,[ str ]).
+html_comp_i(21,'Id','',d,[ str ]).
+html_comp_i(21,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Semanticcontent',div,d,[ str ]).
+html_comp_i(21,'Align',left,d,[ str ]).
+html_comp_i(21,'Valign',top,d,[ str ]).
+html_comp_i(22,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(22,'Colcount',8,d,[ num ]).
+html_comp_i(22,'Attid',-5,v,[ num ]).
+html_comp_i(22,'Class','Attribute',v,[ str ]).
+html_comp_i(22,'Controlname','&Fromdate',d,[ str ]).
+html_comp_i(22,'Returnonclick',0,v,[ bool ]).
+html_comp_i(22,'Captionclass','col-sm-3 AttributeLabel',v,[ str ]).
+html_comp_i(22,'Captionstyle','',v,[ str ]).
+html_comp_i(22,'Captionposition','Left',v,[ str ]).
+html_comp_i(22,'Captionvalue','From Date',d,[ str ]).
+html_comp_i(22,'Layoutclass','col-sm-9',v,[ str ]).
+html_comp_i(22,'Controltype',2,d,[ num ]).
+html_comp_i(22,'Inputtype',0,d,[ num ]).
+html_comp_i(22,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(22,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(22,'Readonly',0,v,[ bool ]).
+html_comp_i(22,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(22,'Ispassword',0,d,[ bool ]).
+html_comp_i(22,'Autoresize',-1,d,[ bool ]).
+html_comp_i(22,'Gxwidth',measure(8,chr),d,[ measure ]).
+html_comp_i(22,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(22,'Ismultiline',0,d,[ bool ]).
+html_comp_i(22,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(22,'Fill',-1,d,[ bool ]).
+html_comp_i(22,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(22,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(22,'Font',font('Verdana',12,[]),d,[ font ]).
+html_comp_i(22,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(22,'Gxformat',0,d,[ num ]).
+html_comp_i(22,'Title','',d,[ str ]).
+html_comp_i(22,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(22,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(23,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(23,'Class',row,v,[ str ]).
+html_comp_i(23,'Id','',d,[ str ]).
+html_comp_i(23,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Semanticcontent',div,d,[ str ]).
+html_comp_i(23,'Align',left,d,[ str ]).
+html_comp_i(23,'Valign',top,d,[ str ]).
+html_comp_i(24,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(24,'Class','col-xs-12',v,[ str ]).
+html_comp_i(24,'Id','',d,[ str ]).
+html_comp_i(24,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Semanticcontent',div,d,[ str ]).
+html_comp_i(24,'Align','Center',v,[ str ]).
+html_comp_i(24,'Valign',top,d,[ str ]).
+html_comp_i(25,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(25,'Class','form-group gx-form-group ',v,[ str ]).
+html_comp_i(25,'Id','',d,[ str ]).
+html_comp_i(25,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Semanticcontent',div,d,[ str ]).
+html_comp_i(25,'Align',left,d,[ str ]).
+html_comp_i(25,'Valign',top,d,[ str ]).
+html_comp_i(26,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(26,'Class','col-sm-9 gx-attribute',v,[ str ]).
+html_comp_i(26,'Id','',d,[ str ]).
+html_comp_i(26,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Semanticcontent',div,d,[ str ]).
+html_comp_i(26,'Align',left,d,[ str ]).
+html_comp_i(26,'Valign',top,d,[ str ]).
+html_comp_i(27,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(27,'Colcount',8,d,[ num ]).
+html_comp_i(27,'Attid',-6,v,[ num ]).
+html_comp_i(27,'Class','Attribute',v,[ str ]).
+html_comp_i(27,'Controlname','&Todate',d,[ str ]).
+html_comp_i(27,'Returnonclick',0,v,[ bool ]).
+html_comp_i(27,'Captionclass','col-sm-3 AttributeLabel',v,[ str ]).
+html_comp_i(27,'Captionstyle','',v,[ str ]).
+html_comp_i(27,'Captionposition','Left',v,[ str ]).
+html_comp_i(27,'Captionvalue','To Date',d,[ str ]).
+html_comp_i(27,'Layoutclass','col-sm-9',v,[ str ]).
+html_comp_i(27,'Controltype',2,d,[ num ]).
+html_comp_i(27,'Inputtype',0,d,[ num ]).
+html_comp_i(27,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(27,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(27,'Readonly',0,v,[ bool ]).
+html_comp_i(27,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(27,'Ispassword',0,d,[ bool ]).
+html_comp_i(27,'Autoresize',-1,d,[ bool ]).
+html_comp_i(27,'Gxwidth',measure(8,chr),d,[ measure ]).
+html_comp_i(27,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(27,'Ismultiline',0,d,[ bool ]).
+html_comp_i(27,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(27,'Fill',-1,d,[ bool ]).
+html_comp_i(27,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(27,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(27,'Font',font('Verdana',12,[]),d,[ font ]).
+html_comp_i(27,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(27,'Gxformat',0,d,[ num ]).
+html_comp_i(27,'Title','',d,[ str ]).
+html_comp_i(27,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(27,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(28,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(28,'Class',row,v,[ str ]).
+html_comp_i(28,'Id','',d,[ str ]).
+html_comp_i(28,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(28,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(28,'Semanticcontent',div,d,[ str ]).
+html_comp_i(28,'Align',left,d,[ str ]).
+html_comp_i(28,'Valign',top,d,[ str ]).
+html_comp_i(29,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(29,'Class','col-xs-12 col-sm-6',v,[ str ]).
+html_comp_i(29,'Id','',d,[ str ]).
+html_comp_i(29,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(29,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(29,'Semanticcontent',div,d,[ str ]).
+html_comp_i(29,'Align','Right',v,[ str ]).
+html_comp_i(29,'Valign',top,d,[ str ]).
+html_comp_i(30,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(30,'Controlname','Customers',v,[ str ]).
+html_comp_i(30,'Class','Button',v,[ str ]).
+html_comp_i(30,'Event','''Customers''',v,[ str ]).
+html_comp_i(30,'Caption','Customers',d,[ str ]).
+html_comp_i(30,'Title','Customers',d,[ str ]).
+html_comp_i(30,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(30,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(30,'Backcolor',rgb(240,240,240),d,[ color ]).
+html_comp_i(30,'Border','2',d,[ str ]).
+html_comp_i(30,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(30,'Buttonborderstyle',standard,d,[ str ]).
+html_comp_i(31,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(31,'Class','col-xs-12 col-sm-6',v,[ str ]).
+html_comp_i(31,'Id','',d,[ str ]).
+html_comp_i(31,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(31,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(31,'Semanticcontent',div,d,[ str ]).
+html_comp_i(31,'Align',left,d,[ str ]).
+html_comp_i(31,'Valign',top,d,[ str ]).
+html_comp_i(32,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(32,'Controlname','Deletecarts',v,[ str ]).
+html_comp_i(32,'Class','Button',v,[ str ]).
+html_comp_i(32,'Event','''Delete Carts''',v,[ str ]).
+html_comp_i(32,'Caption','Delete Carts',d,[ str ]).
+html_comp_i(32,'Title','Delete Carts',d,[ str ]).
+html_comp_i(32,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(32,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(32,'Backcolor',rgb(240,240,240),d,[ color ]).
+html_comp_i(32,'Border','2',d,[ str ]).
+html_comp_i(32,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(32,'Buttonborderstyle',standard,d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(6,1,t('Customers and Shopping Carts',3),[ ctlname('Textblock1') ]).
+lit_i(5,1,div(5),[ ctlname('') ]).
+lit_i(4,1,div(4),[ ctlname('') ]).
+lit_i(9,1,t('Debe ingresar las dos fechas',3),[ ctlname('Textblockadv') ]).
+lit_i(8,1,div(8),[ ctlname('') ]).
+lit_i(7,1,div(7),[ ctlname('') ]).
+lit_i(12,1,t('La fecha de inicio no puede ser mayor a la del final',3),[ ctlname('Textblockdate') ]).
+lit_i(11,1,div(11),[ ctlname('') ]).
+lit_i(10,1,div(10),[ ctlname('') ]).
+lit_i(17,1,t('Mensaje',23),[ ctlname('&Mensaje'),ctrltype(edit,17),pos(17),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(16,1,div(16),[ ctlname('') ]).
+lit_i(15,1,div(15),[ ctlname('') ]).
+lit_i(14,1,div(14),[ ctlname('') ]).
+lit_i(13,1,div(13),[ ctlname('') ]).
+lit_i(22,1,t('Fromdate',23),[ ctlname('&Fromdate'),ctrltype(edit,22),pos(22),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(21,1,div(21),[ ctlname('') ]).
+lit_i(20,1,div(20),[ ctlname('') ]).
+lit_i(19,1,div(19),[ ctlname('') ]).
+lit_i(18,1,div(18),[ ctlname('') ]).
+lit_i(27,1,t('Todate',23),[ ctlname('&Todate'),ctrltype(edit,27),pos(27),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(26,1,div(26),[ ctlname('') ]).
+lit_i(25,1,div(25),[ ctlname('') ]).
+lit_i(24,1,div(24),[ ctlname('') ]).
+lit_i(23,1,div(23),[ ctlname('') ]).
+lit_i(30,1,button('''Customers'''),[ ctlname('Customers'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(29,1,div(29),[ ctlname('') ]).
+lit_i(32,1,button('''Delete Carts'''),[ ctlname('Deletecarts'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(31,1,div(31),[ ctlname('') ]).
+lit_i(28,1,div(28),[ ctlname('') ]).
+lit_i(3,1,div(3),[ ctlname('Maintable') ]).
+lit_i(2,1,div(2),[ ctlname('') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Start',1,5,[ [],[ [ t('Textblockdate',3),t('Visible',3) ],[ t('Mensaje',23),t('Visible',3) ],'Error' ] ]).
+sub_info_i(146,[ t('Fromdate',23,7,7),t('Controlvaluechanged',3,7,17) ],7,20,[ [ 'Todate','Fromdate' ],[ [ t('Textblockadv',3),t('Visible',3) ],[ t('Textblockdate',3),t('Visible',3) ],'Error',[ t('Mensaje',23),t('Visible',3) ] ] ]).
+sub_info_i(146,[ t('Todate',23,22,7),t('Controlvaluechanged',3,22,15) ],22,35,[ [ 'Fromdate','Todate' ],[ [ t('Textblockadv',3),t('Visible',3) ],[ t('Textblockdate',3),t('Visible',3) ],'Error',[ t('Mensaje',23),t('Visible',3) ] ] ]).
+sub_info_i(146,'''Customers''',37,41,[ [ 'Error','Fromdate','Todate' ],[] ]).
+sub_info_i(146,'''Delete Carts''',43,48,[ [ 'Error','Fromdate','Todate' ],[ 'Mensaje',[ t('Mensaje',23),t('Visible',3) ] ] ]).
+ 
+pgm_parm_i(proc,20,'DELETECARTS',[ [ date,8,0,0 ],[ date,8,0,0 ],[ svchar,40,0,0 ] ],[ [ 'FromDate',in,[] ],[ 'ToDate',in,[] ],[ 'Mensaje',out,[] ] ]).
+pgm_parm_i(proc,19,'CUSTOMERSSHOPPING',[ [ date,8,0,0 ],[ date,8,0,0 ] ],[ [ 'FromDate',in,[] ],[ 'ToDate',in,[] ] ]).
+ 
+pgm_callprotocol_i(web,60,'CUSTOMERSSHOPPINGCARTS','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,20,'DELETECARTS','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,19,'CUSTOMERSSHOPPING','HTTP','Unsecure').
+ 
+ 
+pgm_main_info_i(proc,19,'CUSTOMERSSHOPPING',[ 41,'ACUSTOMERSSHOPPING','','','','','HTTP' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

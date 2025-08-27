@@ -1,0 +1,66 @@
+ 
+spec_i([ sdt,[ 0,1,0 ],'Country','Country',0,spa,'18_0_10-184260' ]).
+ 
+struct_dt_i([ 0,1,0 ],name,'Country').
+struct_dt_i([ 0,1,0 ],namespace,'ObligatorioShop').
+struct_dt_i([ 0,1,0 ],significantName,'Country').
+struct_dt_i([ 0,1,0 ],'ObjName','Country').
+struct_dt_i([ 0,1,0 ],'ObjDesc','Country').
+struct_dt_i([ 0,1,0 ],'ExternalName','Country').
+struct_dt_i([ 0,1,0 ],'ExternalNamespace','ObligatorioShop').
+struct_dt_i([ 0,1,0 ],key,[ 1 ]).
+struct_dt_i([ 0,1,0 ],lvl,1).
+struct_dt_i([ 0,1,0 ],fullname,'Country').
+ 
+struct_dt_elem_i([ 0,1,0 ],1,name,'Countryid').
+struct_dt_elem_i([ 0,1,0 ],1,camelname,'CountryId').
+struct_dt_elem_i([ 0,1,0 ],1,basedon,98).
+struct_dt_elem_i([ 0,1,0 ],1,length,4).
+struct_dt_elem_i([ 0,1,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,1,0 ],1,sign,0).
+struct_dt_elem_i([ 0,1,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,1,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 0,1,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,1,0 ],1,attributeid,'1').
+struct_dt_elem_i([ 0,1,0 ],1,'ExternalName','CountryId').
+struct_dt_elem_i([ 0,1,0 ],1,'ExternalNamespace','ObligatorioShop').
+struct_dt_elem_i([ 0,1,0 ],2,name,'Countryname').
+struct_dt_elem_i([ 0,1,0 ],2,camelname,'CountryName').
+struct_dt_elem_i([ 0,1,0 ],2,length,40).
+struct_dt_elem_i([ 0,1,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,1,0 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,1,0 ],2,pic,'').
+struct_dt_elem_i([ 0,1,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,1,0 ],2,attributeid,'2').
+struct_dt_elem_i([ 0,1,0 ],2,'ExternalName','CountryName').
+struct_dt_elem_i([ 0,1,0 ],2,'ExternalNamespace','ObligatorioShop').
+struct_dt_elem_i([ 0,1,0 ],3,name,'Countryflag').
+struct_dt_elem_i([ 0,1,0 ],3,camelname,'CountryFlag').
+struct_dt_elem_i([ 0,1,0 ],3,length,4).
+struct_dt_elem_i([ 0,1,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,1,0 ],3,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 0,1,0 ],3,pic,'').
+struct_dt_elem_i([ 0,1,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,1,0 ],3,attributeid,'3').
+struct_dt_elem_i([ 0,1,0 ],3,'ExternalName','CountryFlag').
+struct_dt_elem_i([ 0,1,0 ],3,'ExternalNamespace','ObligatorioShop').
+struct_dt_elem_i([ 0,1,0 ],4,name,'Countryflag_gxi').
+struct_dt_elem_i([ 0,1,0 ],4,camelname,'CountryFlag_GXI').
+struct_dt_elem_i([ 0,1,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,1,0 ],4,isadd,'True').
+struct_dt_elem_i([ 0,1,0 ],4,length,2048).
+struct_dt_elem_i([ 0,1,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,1,0 ],4,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 0,1,0 ],4,attributeid,'40000').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+module_info_i('GeneXusUnanimo','CSHARP_NAME_SPACE','GeneXus.Programs').
+module_info_i('GeneXusUnanimo','AssemblyName','GeneXusUnanimo.dll').

@@ -1,0 +1,152 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_10-184260</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>26</ObjId>
+<ObjName>AccumulatePoints</ObjName>
+<ObjDesc>Accumulate Points</ObjDesc>
+<ObjPgmName>AccumulatePoints</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0187</MsgCode>
+<Location>
+<Type>Source</Type>
+<Line>5</Line></Location>
+<Message>
+<Token>Method '</Token>
+<Token>truncate</Token>
+<Token>' has no effect.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0060</MsgCode>
+<Message>
+<Token>The program may be called by another program and the Commit on Exit property is set to YES</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>41</GenId>
+<GenName>Default (.NET)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Customerid</VarId>
+<VarName>&amp;CustomerId</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Shoppingcarttotalcost</VarId>
+<VarName>&amp;ShoppingCartTotalCost</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>6</TableId>
+<TableName>PointCard</TableName>
+<Description>Point Card</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>CustomerId</AttriName>
+<Description>Customer Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>UPOINTCARD</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>CustomerId</AttriName>
+<Description>Customer Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Customerid</VarId>
+<VarName>&amp;CustomerId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>CustomerId</AttriName>
+<Description>Customer Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Customerid</VarId>
+<VarName>&amp;CustomerId</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>6</TableId>
+<TableName>PointCard</TableName>
+<Description>Point Card</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>PointCardId</AttriName>
+<Description>Point Card Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>CustomerId</AttriName>
+<Description>Customer Id</Description></Attribute>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>PointCardId</AttriName>
+<Description>Point Card Id</Description></Attribute>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>PointCardVIP</AttriName>
+<Description>Point Card VIP</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>6</TableId>
+<TableName>PointCard</TableName>
+<Description>Point Card</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>PointCardVIP</AttriName>
+<Description>Point Card VIP</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Command>
+<Expression>
+<Variable>
+<VarId>Pointcard</VarId>
+<VarName>&amp;PointCard</VarName></Variable>
+<Token>.</Token>
+<Token>load(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>PointCardId</AttriName>
+<Description>Point Card Id</Description></Attribute>
+<Token>)</Token></Expression></Command>
+<Command>
+<Expression>
+<Variable>
+<VarId>Pointcard</VarId>
+<VarName>&amp;PointCard</VarName></Variable>
+<Token>.</Token>
+<Token>update(</Token>
+<Token>)</Token></Expression></Command>
+<Levels></Levels></Level></Levels></ObjectSpec>

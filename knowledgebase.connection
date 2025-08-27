@@ -1,0 +1,11 @@
+﻿<ConnectionInformation>
+	<DBName>GX_KB_ObligatorioShop</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>DESKTOP-SVNU8R4\SQLEXPRESS</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>A:\Programas\KBs\ObligatorioShop</Directory>
+	<DataFile>GX_KB_ObligatorioShop.mdf</DataFile>
+	<LogFile>GX_KB_ObligatorioShop_log.ldf</LogFile>
+	<HostName>DESKTOP-SVNU8R4</HostName>
+	<DetachOnClose>False</DetachOnClose>
+</ConnectionInformation>

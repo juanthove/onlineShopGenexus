@@ -1,0 +1,35 @@
+# =========================
+# GeneXus Generated Folders
+# =========================
+Model/
+bin/
+obj/
+node_modules/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Configuraciones locales / sensibles
+# =========================
+*.config
+web.config
+NuGet.Config
+
+# =========================
+# Archivos temporales de GeneXus
+# =========================
+*.lastbuild
+*.gxignore
+*.tmp
+*.bak
+
+# =========================
+# Archivos del sistema
+# =========================
+.DS_Store
+Thumbs.db
+*.swp

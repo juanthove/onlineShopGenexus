@@ -1,0 +1,7 @@
+bc_dt_elem_i([ 0,6,0 ],'Pointcardid',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Customerid',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Customername',readonly,yes).
+bc_dt_elem_i([ 0,6,0 ],'Customername',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Pointcardpoints',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Pointcardvip',allownulls,no).
+ 

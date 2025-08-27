@@ -1,0 +1,509 @@
+spec_i([ proc,16,'Categories Product List','CategoriesProductList',78,spa,'18_0_10-184260' ]).
+ 
+struct_i(4,1,[],[]).
+struct_i(3,2,[],[]).
+ 
+level_i(4,[ 4,[ [ 4,many ],[ 3,one ] ],[],[],[ [ [ 4,3 ],[ 4,40000,40001,8,7,14,11,13,6 ] ] ],[ [ [ 4,3 ],[] ] ],[ 4 ],'IPRODUCT1',[ 4,[ [ [],'Categoryid',4 ] ] ],[] ]).
+level_i(3,[ 2,[ [ 2,many ] ],[],[],[ [ [ 2 ],[ 4,5 ] ] ],[ [ [ 2 ],[] ] ],[ 4 ],'ICATEGORY',[ 2,[ [ [],'Categoryid',4 ] ] ],[] ]).
+ 
+tw_i(4,[ [ 3,[ [ 4,6,6 ] ] ] ]).
+tw_i(3,[]).
+ 
+lwi_i(4,[ [] ]).
+lwi_i(3,[ [] ]).
+ 
+ 
+ 
+level_option_i(4,when_none,'GXLvl8').
+ 
+ta_i(4,[ [ [ 4,6 ],[ 4,4 ],[ 3,40000 ],[ 4,40001 ],[ 3,8 ],[ 3,7 ],[ 4,14 ],[ 4,11 ],[ 4,13 ] ] ]).
+ta_i(3,[ [ [ 2,4 ],[ 2,5 ] ] ]).
+ 
+las_i(4,[ [ 4,40000,40001,8,7,14,11,13,6 ] ]).
+las_i(3,[ [ 4,5 ] ]).
+ 
+lac_i(4,[ [] ]).
+lac_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-SVNU8R4\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME','ObligatorioShop')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop(gxtest_ignoreForTestCoverage,'0')).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','KnowledgeBase')).
+rule_i(0,prop('FullyQualifiedName','CategoriesProductList')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('AppGenerator','1')).
+rule_i(0,prop('AppLocation','')).
+rule_i(0,prop('AppIcon','')).
+rule_i(0,prop('AppTitle','')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('HTTP_STREAMING_SUPPORT','Off')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'ObligatorioShop'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','HTTP')).
+rule_i(0,prop('IsMain','-1')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('ObjDesc','Categories Product List')).
+rule_i(0,prop('ObjName','CategoriesProductList')).
+rule_i(0,maingen(41)).
+rule_i(0,prop('PGMTYPE',main)).
+rule_i(0,output_file(t('ShoppingCartReport.pdf',3),t('Pdf',3))).
+rule_i(0,parm([ 'Categoryid' ],[])).
+rule_i(0,parmio([ [ 'Categoryid',in ] ])).
+rule_i(0,output_file(t('ShoppingCartReport.pdf',3),t('Pdf',3))).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Line',[],[ [],[ t(0,3) ] ]).
+a_i(2,2,f,'Page',[],[ [],[ t('Page',23),t(+,5),t('1',3) ] ]).
+a_i(3,3,t,2,[],[ [ [ [],'Categoryid',4 ] ],'ICATEGORY',[] ]).
+a_i(4,4,t,4,[],[ [ [ [],'Categoryid',4 ] ],'IPRODUCT1',[] ]).
+a_i(5,4,r,3,[],[ [ [ 4,6,6 ] ],'ISELLER',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Line').
+v_i(f,i,2,'Page').
+v_i(f,o,2,'Page').
+v_i(t,i,3,'Categoryid').
+v_i(t,o,3,4).
+v_i(t,o,3,5).
+v_i(t,i,4,'Categoryid').
+v_i(t,o,4,6).
+v_i(t,o,4,4).
+v_i(t,o,4,40001).
+v_i(t,o,4,14).
+v_i(t,o,4,11).
+v_i(t,o,4,13).
+v_i(r,i,5,6).
+v_i(r,o,5,40000).
+v_i(r,o,5,8).
+v_i(r,o,5,7).
+ 
+ 
+ca_i(2,'Page').
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',13 ]).
+attri_i(10,[ 'ProductId',int,4,0,'ZZZ9',0,'Product Id','',0 ]).
+attri_i(6,[ 'SellerId',int,4,0,'ZZZ9',0,'Seller Id','',0 ]).
+attri_i(4,[ 'CategoryId',int,4,0,'ZZZ9',0,'Category Id','',0 ]).
+attri_i('Page',[ 'Gx_page',int,6,0,'ZZZZZ9',0,'Page number','',12 ]).
+attri_i('Line',[ 'Gx_line',int,6,0,'ZZZZZ9',0,'Line number','',11 ]).
+attri_i(8,[ 'SellerPhoto',bits,4,0,'',0,'Seller Photo','',0 ]).
+attri_i(7,[ 'SellerName',svchar,40,0,'',0,'Seller Name','',0 ]).
+attri_i(14,[ 'ProductImage',bits,4,0,'',0,'Product Image','',0 ]).
+attri_i(11,[ 'ProductName',svchar,40,0,'',0,'Product Name','',0 ]).
+attri_i(13,[ 'ProductPrice',int,18,2,'ZZZZZZZZZZZZZZ9.99',0,'Product Price','',0 ]).
+attri_i(40001,[ 'ProductImage_GXI',svchar,2048,0,'',0,'',[],0 ]).
+attri_i(40000,[ 'SellerPhoto_GXI',svchar,2048,0,'',0,'',[],0 ]).
+attri_i('GXLvl8',[ 'GXLvl8',int,1,0,'',0,'',[],10 ]).
+attri_i(5,[ 'CategoryName',svchar,40,0,'',0,'Category Name','',0 ]).
+attri_i('Categoryid',[ 'CategoryId',int,4,0,'ZZZ9',0,'Category Id','',8 ]).
+ 
+table_i(2,[ 'Category',[ 4,5 ],'Category','Category' ]).
+table_i(3,[ 'Seller',[ 6,7,8,40000 ],'Seller','Seller' ]).
+table_i(4,[ 'Product',[ 10,11,13,14,40001,6,4 ],'Product','Product' ]).
+ 
+index_i(2,[ 'ICATEGORY',u,[ 4 ],'ICategory' ]).
+index_i(4,[ 'IPRODUCT',u,[ 10 ],'IProduct' ]).
+index_i(4,[ 'IPRODUCT1',d,[ 4 ],'IProduct1' ]).
+index_i(3,[ 'ISELLER',u,[ 6 ],'ISeller' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,40000,8,'SellerPhoto_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,40001,14,'ProductImage_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,40002,43,'ProductCountryFlag_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,40003,3,'CountryFlag_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+start_i(4,0,0,[ [ [ 4,23,'Categoryid',= ] ],many ]).
+start_i(3,0,0,[ [ [ 4,23,'Categoryid',= ] ],one ]).
+ 
+end_i(4,0,0,[ [ [ t(4,2),t(=,10),t('Categoryid',23) ] ] ]).
+end_i(3,0,0,[ [ [ t(4,2),t(=,10),t('Categoryid',23) ] ] ]).
+ 
+ 
+map_i(503,a,40002,[ 'CountryFlag_GXI' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(98,[ 'Id' ]).
+dom_info_i(92,[ 'GeneXusUnanimo\Description' ]).
+ 
+ 
+break_i(3,nvg,2,[],[ [ 5 ],[ 4 ],[] ]).
+break_i(2,page,1,[],[ [],[],[] ]).
+break_i(4,nvg,1,[],[ [ 13,11,14,7,8,40001,40000 ],[ 4 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,page,2,0,0).
+b_group_i(2,1,lit,0,2,2).
+b_group_i(2,2,nvg,3,2,2).
+b_group_i(3,1,lit,0,3,10).
+b_group_i(2,3,lit,0,12,12).
+b_group_i(1,3,lit,0,13,12).
+b_group_i(1,4,nvg,4,8,8).
+b_group_i(4,1,lit,0,15,21).
+b_group_i(1,5,lit,0,25,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(2,3,1,cmd,3,[ t('',121,2,0),t(table,3,2,11),t(2,3,2,11) ]).
+b_line_i(4,3,1,pb,3,[ t('Head',29,3,9) ]).
+b_line_i([ 4,0 ],3,1,line,3,[ t(' ',3,0,0) ]).
+b_line_i([ 4,2 ],3,1,line,5,[ t(5,2,2,41),t('and Products',3,2,72) ]).
+b_line_i([ 4,5 ],3,1,line,8,[ t('Seller',3,5,92) ]).
+b_line_i([ 4,6 ],3,1,line,9,[ t(' ',3,6,0) ]).
+b_line_i(5,3,1,cmd,10,[ t('',128,5,0) ]).
+b_line_i(6,2,3,cmd,12,[ t('',122,6,0) ]).
+b_line_i(7,1,3,cmd,12,[]).
+b_line_i([ 8,0 ],1,3,cmd,12,[ t('',107,8,0),t('GXLvl8',23,12,0),t(=,10,12,0),t('0',3,12,0) ]).
+b_line_i(8,4,1,cmd,15,[ t('',121,8,0),t(table,3,8,10),t(4,3,8,10) ]).
+b_line_i([ 8,1 ],4,1,cmd,14,[ t('',107,8,0),t('GXLvl8',23,14,0),t(=,10,14,0),t('1',3,14,0) ]).
+b_line_i(10,4,1,cmd,15,[]).
+b_line_i(11,4,1,pb,15,[ t('Datos',29,15,8) ]).
+b_line_i([ 11,0 ],4,1,line,15,[ t(' ',3,0,0) ]).
+b_line_i([ 11,1 ],4,1,line,16,[ t(8,2,1,104),t(40000,2,1,104) ]).
+b_line_i([ 11,2 ],4,1,line,17,[ t(14,2,2,3),t(40001,2,2,3),t(11,2,2,14),t(13,2,2,39),t(7,2,2,71) ]).
+b_line_i([ 11,5 ],4,1,line,20,[ t(' ',3,5,0) ]).
+b_line_i(12,4,1,cmd,21,[]).
+b_line_i(13,4,1,cmd,21,[ t('',128,13,0) ]).
+b_line_i([ 13,1 ],1,5,cmd,22,[ t('',109,13,0),t('GXLvl8',23,22,0),t(=,10,22,0),t('0',3,22,0) ]).
+b_line_i(14,1,5,pb,23,[ t('Sindatos',29,23,8) ]).
+b_line_i([ 14,0 ],1,5,line,23,[ t(' ',3,0,0) ]).
+b_line_i([ 14,2 ],1,5,line,25,[ t('No hay productos en esta Categoría',3,2,34) ]).
+b_line_i([ 14,5 ],1,5,line,28,[ t(' ',3,5,0) ]).
+b_line_i(15,1,5,cmd,29,[ t('',111,15,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(1,4,t(5,2),[ font('Microsoft Sans Serif',12,[ bold ]),rect(292,33,501,55),outstyle(none),align(right),valign(top),fore(rgb(0,0,128)),border(1),format(0),ctlname('5'),ctrltype(edit,1),ispwd(0),gxcolor([]) ]).
+lit_i(4,4,t('and Products',3),[ font('Microsoft Sans Serif',12,[ bold ]),rect(508,33,619,54),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,128)),border(1),ctlname('Gxreportlabel1'),gxcolor([]) ]).
+lit_i(6,4,t('Seller',3),[ font('Microsoft Sans Serif',10,[ bold ]),rect(650,83,694,101),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,128)),border(1),ctlname('Gxreportlabel2'),gxcolor([]) ]).
+lit_i(7,4,rect(7),[ rect(33,100,791,100),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,128)),border(1),ctlname('Gxreportline1'),gxcolor([]),borderstyle(0) ]).
+lit_i(8,4,bitmap(i(98,'82237a53-0702-4c99-9372-335a44e7524e')),[ ctlname('Gxreportimage1'),rect(150,0,275,83) ]).
+lit_i(1,4,window,[ title('Text'),rect(0,0,827,105),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Head'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(10,11,t(13,2),[ font('Microsoft Sans Serif',11,[]),rect(275,33,426,53),outstyle(none),align(center),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('13'),ctrltype(edit,10),ispwd(0),gxcolor([]) ]).
+lit_i(11,11,t(11,2),[ font('Microsoft Sans Serif',11,[]),rect(100,33,242,53),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('11'),ctrltype(edit,11),ispwd(0),gxcolor([]) ]).
+lit_i(12,11,t(14,2),[ font('Microsoft Sans Serif',11,[]),rect(25,33,75,66),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('14'),ctrltype(edit,12),ispwd(0),gxcolor([]) ]).
+lit_i(13,11,t(7,2),[ font('Microsoft Sans Serif',11,[]),rect(500,33,725,53),outstyle(none),align(center),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('7'),ctrltype(edit,13),ispwd(0),gxcolor([]) ]).
+lit_i(14,11,t(8,2),[ font('Microsoft Sans Serif',11,[]),rect(733,17,800,67),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('8'),ctrltype(edit,14),ispwd(0),gxcolor([]) ]).
+lit_i(3,11,window,[ title('Text'),rect(0,0,827,100),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Datos'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(16,14,t('No hay productos en esta Categoría',3),[ font('Microsoft Sans Serif',14,[ bold ]),rect(242,33,591,58),outstyle(none),align(left),valign(top),noclip,fore(rgb(75,0,130)),border(1),ctlname('Gxreportlabel3'),gxcolor([]) ]).
+lit_i(15,14,window,[ title('Text'),rect(0,0,827,100),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Sindatos'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+calling_main_i(1,16).
+ 
+att_prop_i(2,5,'ExternalName','CategoryName',d).
+att_prop_i(2,5,'ExternalNamespace','ObligatorioShop',d).
+att_prop_i(2,5,'EmptyAsNull','Yes',d).
+att_prop_i(2,5,idBasedOn,'',d).
+att_prop_i(2,5,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,5,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,5,'AttRegEx','',d).
+att_prop_i(2,5,'AttValidationFailedMsg','',d).
+att_prop_i(2,5,'DownloadOffline','0',d).
+att_prop_i(2,5,'VarServiceExtName','',d).
+att_prop_i(2,5,'FullName','CategoryName',v).
+att_prop_i(2,13,'ExternalName','ProductPrice',d).
+att_prop_i(2,13,'ExternalNamespace','ObligatorioShop',d).
+att_prop_i(2,13,'EmptyAsNull','Yes',d).
+att_prop_i(2,13,idBasedOn,'',d).
+att_prop_i(2,13,'AUTONUMBER','0',d).
+att_prop_i(2,13,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,13,'AttRegEx','',d).
+att_prop_i(2,13,'AttValidationFailedMsg','',d).
+att_prop_i(2,13,'DownloadOffline','0',d).
+att_prop_i(2,13,'VarServiceExtName','',d).
+att_prop_i(2,13,'FullName','ProductPrice',v).
+att_prop_i(2,11,'ExternalName','ProductName',d).
+att_prop_i(2,11,'ExternalNamespace','ObligatorioShop',d).
+att_prop_i(2,11,'EmptyAsNull','Yes',d).
+att_prop_i(2,11,idBasedOn,'',d).
+att_prop_i(2,11,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,11,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,11,'AttRegEx','',d).
+att_prop_i(2,11,'AttValidationFailedMsg','',d).
+att_prop_i(2,11,'DownloadOffline','0',d).
+att_prop_i(2,11,'VarServiceExtName','',d).
+att_prop_i(2,11,'FullName','ProductName',v).
+att_prop_i(2,14,'ExternalName','ProductImage',d).
+att_prop_i(2,14,'ExternalNamespace','ObligatorioShop',d).
+att_prop_i(2,14,'EmptyAsNull','Yes',d).
+att_prop_i(2,14,'ExternalStorage','-1',d).
+att_prop_i(2,14,idBasedOn,'',d).
+att_prop_i(2,14,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,14,'AttRegEx','',d).
+att_prop_i(2,14,'AttValidationFailedMsg','',d).
+att_prop_i(2,14,'DownloadOffline','0',d).
+att_prop_i(2,14,'VarServiceExtName','',d).
+att_prop_i(2,14,'FullName','ProductImage',v).
+att_prop_i(2,7,'ExternalName','SellerName',d).
+att_prop_i(2,7,'ExternalNamespace','ObligatorioShop',d).
+att_prop_i(2,7,'EmptyAsNull','Yes',d).
+att_prop_i(2,7,idBasedOn,'',d).
+att_prop_i(2,7,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,7,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,7,'AttRegEx','',d).
+att_prop_i(2,7,'AttValidationFailedMsg','',d).
+att_prop_i(2,7,'DownloadOffline','0',d).
+att_prop_i(2,7,'VarServiceExtName','',d).
+att_prop_i(2,7,'FullName','SellerName',v).
+att_prop_i(2,8,'ExternalName','SellerPhoto',d).
+att_prop_i(2,8,'ExternalNamespace','ObligatorioShop',d).
+att_prop_i(2,8,'EmptyAsNull','Yes',d).
+att_prop_i(2,8,'ExternalStorage','-1',d).
+att_prop_i(2,8,idBasedOn,'',d).
+att_prop_i(2,8,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,8,'AttRegEx','',d).
+att_prop_i(2,8,'AttValidationFailedMsg','',d).
+att_prop_i(2,8,'DownloadOffline','0',d).
+att_prop_i(2,8,'VarServiceExtName','',d).
+att_prop_i(2,8,'FullName','SellerPhoto',v).
+att_prop_i(2,4,'ExternalName','CategoryId',d).
+att_prop_i(2,4,'ExternalNamespace','ObligatorioShop',d).
+att_prop_i(2,4,'EmptyAsNull','Yes',d).
+att_prop_i(2,4,idBasedOn,98,v).
+att_prop_i(2,4,'AUTONUMBER','-1',d).
+att_prop_i(2,4,'AUTONUMBER_START','1',d).
+att_prop_i(2,4,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,4,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,4,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,4,'AttRegEx','',d).
+att_prop_i(2,4,'AttValidationFailedMsg','',d).
+att_prop_i(2,4,'DownloadOffline','0',d).
+att_prop_i(2,4,'VarServiceExtName','',d).
+att_prop_i(2,4,'FullName','CategoryId',v).
+att_prop_i(2,6,'ExternalName','SellerId',d).
+att_prop_i(2,6,'ExternalNamespace','ObligatorioShop',d).
+att_prop_i(2,6,'EmptyAsNull','Yes',d).
+att_prop_i(2,6,idBasedOn,98,v).
+att_prop_i(2,6,'AUTONUMBER','-1',d).
+att_prop_i(2,6,'AUTONUMBER_START','1',d).
+att_prop_i(2,6,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,6,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,6,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,6,'AttRegEx','',d).
+att_prop_i(2,6,'AttValidationFailedMsg','',d).
+att_prop_i(2,6,'DownloadOffline','0',d).
+att_prop_i(2,6,'VarServiceExtName','',d).
+att_prop_i(2,6,'FullName','SellerId',v).
+att_prop_i(2,10,'ExternalName','ProductId',d).
+att_prop_i(2,10,'ExternalNamespace','ObligatorioShop',d).
+att_prop_i(2,10,'EmptyAsNull','Yes',d).
+att_prop_i(2,10,idBasedOn,98,v).
+att_prop_i(2,10,'AUTONUMBER','-1',d).
+att_prop_i(2,10,'AUTONUMBER_START','1',d).
+att_prop_i(2,10,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,10,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,10,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,10,'AttRegEx','',d).
+att_prop_i(2,10,'AttValidationFailedMsg','',d).
+att_prop_i(2,10,'DownloadOffline','0',d).
+att_prop_i(2,10,'VarServiceExtName','',d).
+att_prop_i(2,10,'FullName','ProductId',v).
+att_prop_i(2,40000,'ExternalName','',d).
+att_prop_i(2,40000,'ExternalNamespace','',d).
+att_prop_i(2,40000,'EmptyAsNull','Yes',d).
+att_prop_i(2,40000,idBasedOn,'',d).
+att_prop_i(2,40000,'AUTONUMBER','0',d).
+att_prop_i(2,40000,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40000,'AttRegEx','',d).
+att_prop_i(2,40000,'AttValidationFailedMsg','',d).
+att_prop_i(2,40000,'FullName','',v).
+att_prop_i(2,40001,'ExternalName','',d).
+att_prop_i(2,40001,'ExternalNamespace','',d).
+att_prop_i(2,40001,'EmptyAsNull','Yes',d).
+att_prop_i(2,40001,idBasedOn,'',d).
+att_prop_i(2,40001,'AUTONUMBER','0',d).
+att_prop_i(2,40001,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40001,'AttRegEx','',d).
+att_prop_i(2,40001,'AttValidationFailedMsg','',d).
+att_prop_i(2,40001,'FullName','',v).
+ 
+tbl_prop_i(2,4,'AllDirSuper',[ [ 2,[ 4 ] ],[ 3,[ 6 ] ] ],v).
+tbl_prop_i(2,3,'DirSubor',[ [ 4,[ 6 ] ] ],v).
+tbl_prop_i(2,2,'DirSubor',[ [ 4,[ 4 ] ] ],v).
+tbl_prop_i(2,4,'DirSuper',[ [ 2,[ 4 ] ],[ 3,[ 6 ] ] ],v).
+ 
+tbl_att_prop_i(2,2,4,'AllowNulls',n).
+tbl_att_prop_i(2,2,4,'AUTONUMBER',y).
+tbl_att_prop_i(2,2,5,'AllowNulls',n).
+tbl_att_prop_i(2,4,10,'AllowNulls',n).
+tbl_att_prop_i(2,4,10,'AUTONUMBER',y).
+tbl_att_prop_i(2,4,11,'AllowNulls',n).
+tbl_att_prop_i(2,4,13,'AllowNulls',n).
+tbl_att_prop_i(2,4,14,'AllowNulls',n).
+tbl_att_prop_i(2,4,40001,'AllowNulls',n).
+tbl_att_prop_i(2,4,6,'AllowNulls',n).
+tbl_att_prop_i(2,4,4,'AllowNulls',n).
+tbl_att_prop_i(2,3,6,'AllowNulls',n).
+tbl_att_prop_i(2,3,6,'AUTONUMBER',y).
+tbl_att_prop_i(2,3,7,'AllowNulls',n).
+tbl_att_prop_i(2,3,8,'AllowNulls',n).
+tbl_att_prop_i(2,3,40000,'AllowNulls',n).
+ 
+var_prop_i(2,'Categoryid',idBasedOn,'',v).
+ 
+ 
+ 
+a_alias_i(40002,'ProductCountryFlag_GXI').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,16,'CATEGORIESPRODUCTLIST','HTTP','Unsecure').
+ 
+ 
+pgm_main_info_i(proc,16,'CATEGORIESPRODUCTLIST',[ 41,'ACATEGORIESPRODUCTLIST','Categories Product List','','','','HTTP' ]).
+ 
+ 
+ 
+module_info_i('GeneXusUnanimo','CSHARP_NAME_SPACE','GeneXus.Programs').
+module_info_i('GeneXusUnanimo','AssemblyName','GeneXusUnanimo.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
